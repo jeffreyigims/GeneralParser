@@ -24,7 +24,12 @@ struct Repository: Codable, Identifiable {
   }
 }
 
-// We turn each request we make into a generic struct
+/*
+   We turn each request we make into a generic struct,
+   note how we are passing in a generic parameter T which
+   will be of the type of object we want to decode from
+   our API call
+*/
 struct Request<T> {
   let method: HTTPMethod
   let params: Parameters
