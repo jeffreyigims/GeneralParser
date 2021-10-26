@@ -1,0 +1,6 @@
+framework module Pods_GeneralParser_GeneralParserUITests {
+  umbrella header "Pods-GeneralParser-GeneralParserUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
